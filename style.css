@@ -347,3 +347,45 @@ button {
 button:hover {
   transform: scale(1.05);
 }
+/* Ready to Focus Section */
+.ready-focus {
+  background-color: #f9fafb;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.ready-focus .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.ready-focus h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.ready-focus p {
+  font-size: 18px;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.ready-focus .primary-btn {
+  background-color: #4f46e5;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.ready-focus .primary-btn:hover {
+  background-color: #3730a3;
+}
+
+.focus-img {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
