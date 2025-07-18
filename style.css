@@ -347,7 +347,6 @@ button {
 button:hover {
   transform: scale(1.05);
 }
-/* Ready to Focus Section */
 .ready-focus {
   background-color: #f9fafb;
   padding: 60px 20px;
@@ -371,12 +370,15 @@ button:hover {
 }
 
 .ready-focus .primary-btn {
+  display: inline-block;
+  margin: 20px auto;
   background-color: #4f46e5;
   color: white;
   padding: 12px 24px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .ready-focus .primary-btn:hover {
@@ -384,8 +386,9 @@ button:hover {
 }
 
 .focus-img {
-  width: 100%;
-  max-width: 600px;
-  margin-top: 30px;
+  display: block;
+  margin: 20px auto 0;
+  max-width: 100%;
+  width: 500px;
   border-radius: 30px;
 }
