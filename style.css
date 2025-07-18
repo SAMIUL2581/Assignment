@@ -311,33 +311,33 @@ body {
 }
 /* Footer */
 .footer {
-  background-color: #1f2937;
+  background-color:rgb(237, 235, 235);
   padding: 50px 20px;
   text-align: center;
-  color: white;
+  color: rgb(13, 6, 218);
 }
 
 .footer-logo {
-  font-size: 26px;
-  font-weight: bold;
+  font-size: 30px;
+  font-weight: 900;
   margin-bottom: 10px;
 }
 
 .footer-subtext {
-  color: #9ca3af;
+  color: #8c8d8e;
   font-size: 16px;
   margin-bottom: 20px;
 }
 
 .footer-links a {
   margin: 0 10px;
-  color: #d1d5db;
+  color: #8c8d8e;
   text-decoration: none;
   font-size: 15px;
 }
 
 .footer-links a:hover {
-  color: #ffffff;
+  color: #165f89;
 }
 /* Button Animation */
 button {
