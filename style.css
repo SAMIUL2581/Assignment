@@ -77,3 +77,64 @@ body {
 .focus-btn:hover {
   background-color: darkblue;
 }
+/*  Action Section */
+.action-section {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  background: white;
+}
+
+.action-section .container {
+  width: 1104px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-section .left {
+  flex: 1;
+}
+
+.action-section .left h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.action-section .left p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.primary-btn {
+  background-color: #4f46e5;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+  background-color: #3730a3;
+}
+
+.action-section .right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.action-section .right img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 40px;
+}
+
+/*  Subtext */
+.subtext {
+  color: #6b7280;
+  font-size: 18px;
+  font-weight: 400;
+}
