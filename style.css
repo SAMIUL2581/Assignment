@@ -1,0 +1,79 @@
+/*  Base Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Banner Section */
+.banner {
+  background-image: url('back.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px 50px;
+  box-sizing: border-box;
+  position: relative;
+  align-items: center;
+}
+
+/*  Navbar */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+/*  Logo */
+.Logo {
+  font-size: 25px;
+  font-weight: 800;
+  color: blue;
+}
+
+/*  Sign Up Button */
+.signup-btn {
+  background-color: blue;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.signup-btn:hover {
+  background-color: darkblue;
+}
+
+/*  Banner Title */
+.banner-title {
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+/*  Focus Button */
+.focus-btn {
+  margin-top: 10px;
+  background-color: blue;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  max-width: 200px;
+  width: auto;
+}
+
+.focus-btn:hover {
+  background-color: darkblue;
+}
